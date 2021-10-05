@@ -2,9 +2,10 @@ html, body, *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-size: 62.5%; 
-
+    font-size: 100%; 
 }
-.starter{
+
+.title{
     text-align: center;
+    font-size: 75px;
 }
