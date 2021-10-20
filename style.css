@@ -48,12 +48,13 @@ margin: 4rem auto;
     transform: skew(5deg,5deg);
 }
 #img-4:hover{
-    transform: translateX(2rem)
+    transform: translateX(2rem);
 }
 #img-5:hover{
-    transform: rotate(0.5turn)
+    transform: rotate(90deg);
+    
 }
-}
+
 .cardword{
     text-align: center;
 }
