@@ -58,5 +58,22 @@ margin: 4rem auto;
 .cardword{
     text-align: center;
 }
+@media (max-width: 102.4rem) {
+    body {
+        background-color: crimson;
+    }
+}
+@media (max-width: 76.8rem) {
+    body {
+        background-color: white;
+    }
+}
+@media (max-width: 39rem) {
+    body {
+        background-color: wheat;
+        color: palevioletred;
+        height: 2rem;
+    }
+}
 
 
