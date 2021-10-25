@@ -58,6 +58,39 @@ margin: 4rem auto;
 .cardword{
     text-align: center;
 }
+.animation {
+    height: 2rem;
+    width: 2rem;
+    animation: test 4s infinite;
+    position: absolute;
+}
+@keyframes test{
+    0%{
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+    25%{
+        left: 50%;
+        bottom: 20%;
+        background-color: blue;
+    }
+    50%{
+        left: 55%;
+        bottom: 20%;
+        background-color: green;
+    }
+    75%{
+        left: 55%;
+        bottom: 10%;
+        background-color: yellow;
+    }
+    100%{
+        left: 50%;
+        bottom: 10%;
+        background-color: purple;
+    }
+}
 @media (max-width: 1024px) {
     body {
         background-color: crimson;
