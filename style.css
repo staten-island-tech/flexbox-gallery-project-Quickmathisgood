@@ -102,9 +102,10 @@ margin: 4rem auto;
     }
 }
 @media (max-width: 600px) {
-    body {
+    .cardgallery {
         background-color: wheat;
         color: palevioletred;
+        width: 80%;
     }
 }
 
